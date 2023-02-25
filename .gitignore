@@ -1,0 +1,17 @@
+#! GitIgnore.
+
+# This file ignore all the config files, except the specified files.
+
+# Ignore all the directory content.
+*
+
+# Add Exceptions.
+
+# Manifest.
+!Readme.md
+
+# GitIgnore.
+!.gitignore
+
+# Qtile.
+!/qtile/
