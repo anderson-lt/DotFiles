@@ -15,3 +15,6 @@
 
 # Qtile.
 !/qtile/
+!/qtile/*
+!/qtile/scripts/
+!/qtile/scripts/*
