@@ -195,7 +195,7 @@ screens = [
             border_width=[0, 0, 3, 0],
             border_color=color_blue,
         ),
-        wallpaper="~/.config/qtile/wallpaper.jpg",
+        wallpaper="~/.config/qtile/Images/Wallpapers/default.jpg",
         wallpaper_mode="fill",
     ),
 ]
@@ -258,4 +258,4 @@ wmname = "LG3D"
 def autostart():
     home = os.path.expanduser("~/.config/qtile/autostart.sh")
     subprocess.Popen(["picom"])
-    subprocess.Popen(["playerctld daemon"])
+    subprocess.Popen(["playerctld", "daemon"])

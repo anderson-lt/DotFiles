@@ -1,0 +1,9 @@
+#! GitIgnore
+
+# Permit all Qtile Configuration.
+!*
+
+# Ignore certanins folders.
+/__pycache__/
+/bin/
+
